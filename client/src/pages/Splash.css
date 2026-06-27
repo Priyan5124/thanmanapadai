@@ -1,0 +1,73 @@
+body {
+
+    margin: 0;
+
+    background: #1B1B1B;
+
+    font-family: Poppins, sans-serif;
+
+    overflow: hidden;
+
+}
+
+.splash {
+
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: linear-gradient(135deg, #2d1b12, #0d472d);
+
+    color: white;
+
+}
+
+h1 {
+
+    font-size: 90px;
+
+    animation: float 2s infinite;
+
+}
+
+h2 {
+
+    font-size: 42px;
+
+    color: gold;
+
+}
+
+p {
+
+    letter-spacing: 2px;
+
+}
+
+@keyframes float {
+
+    0% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(-15px);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+}
